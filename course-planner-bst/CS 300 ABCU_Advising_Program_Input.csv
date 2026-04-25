@@ -1,8 +1,38 @@
-MATH201,Discrete Mathematics,,
-CSCI300,Introduction to Algorithms,CSCI200,MATH201
-CSCI350,Operating Systems,CSCI300,
-CSCI101,Introduction to Programming in C++,CSCI100,
 CSCI100,Introduction to Computer Science,,
+CSCI101,Introduction to Programming in C++,CSCI100,
+CSCI102,Introduction to Web Development,CSCI100,
+MATH101,Calculus I,,
+MATH102,Calculus II,MATH101,
+MATH201,Discrete Mathematics,MATH101,
+MATH202,Linear Algebra,MATH102,
+MATH300,Probability and Statistics,MATH102,MATH201
+PHYS101,Physics for Scientists and Engineers I,MATH101,
+PHYS102,Physics for Scientists and Engineers II,PHYS101,MATH102
+CSCI200,Data Structures,CSCI101,MATH201
+CSCI201,Object-Oriented Programming in Java,CSCI101,
+CSCI210,Computer Organization and Architecture,CSCI101,MATH201
+CSCI300,Introduction to Algorithms,CSCI200,MATH201
 CSCI301,Advanced Programming in C++,CSCI101,
+CSCI310,Database Systems,CSCI200,
+CSCI315,Web Application Development,CSCI102,CSCI310
+CSCI320,Software Engineering,CSCI200,CSCI201
+CSCI330,Computational Graphics and Visualization,CSCI200,MATH202
+CSCI340,Artificial Intelligence,CSCI300,MATH300
+CSCI345,Machine Learning,CSCI340,MATH202
+CSCI350,Operating Systems,CSCI300,CSCI210
+CSCI360,Computer Networks,CSCI350,
 CSCI400,Large Software Development,CSCI301,CSCI350
-CSCI200,Data Structures,CSCI101,
+CSCI410,Distributed Systems,CSCI350,CSCI360
+CSCI420,Cloud Computing,CSCI360,
+CSCI430,Cryptography,MATH201,CSCI300
+CSCI450,Capstone Project I,CSCI320,CSCI310
+CSCI451,Capstone Project II,CSCI450,
+CYB200,Cybersecurity Foundations,CSCI100,
+CYB210,Ethical Hacking,CYB200,CSCI360
+CYB300,Network Security,CYB200,CSCI360
+CYB400,Digital Forensics,CYB300,
+ENGR100,Introduction to Engineering,,
+ENGR200,Digital Logic Design,ENGR100,MATH201
+DATA200,Introduction to Data Science,CSCI101,MATH300
+DATA300,Big Data Analytics,DATA200,CSCI310
+DATA400,Deep Learning,CSCI345,DATA300
